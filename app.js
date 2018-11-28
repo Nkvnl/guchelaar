@@ -1,9 +1,7 @@
 var express = require("express"); // call express
 var app = express();
-const compression = require('compression');
 var sm = require('sitemap');
 
-app.use(compression());
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(express.static(__dirname + "/public"));
