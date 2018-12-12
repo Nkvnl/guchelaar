@@ -12,17 +12,23 @@
 }
 
 p{
+  font-size:.9rem;
   font-family: 'Montserrat', sans-serif;
 }
 
 hr{
-  border:2px solid red;
+  border:1px solid #b52222;
+  width:80%;
 }
+
+/**{*/
+/*  border: 0.2px solid green;*/
+/*}*/
 
 h1,h2,h3,h4,h5,h6{
   /*font-weight:bold;*/
   color:black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 #texts{
@@ -32,7 +38,7 @@ h1,h2,h3,h4,h5,h6{
 
 .btn-primary{
   background:white;
-  border:2px solid red;
+  border:2px solid #BF0000;
   border-radius:0px;
   color:black;
   font-family: 'Montserrat', sans-serif;
@@ -138,7 +144,7 @@ h1,h2,h3,h4,h5,h6{
 #hero{
   /*margin-top:-160px;*/
   height:100vh!important;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/638479/pexels-photo-638479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/638479/pexels-photo-638479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size:cover;
   background-position:center center;
   webkit-box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
@@ -149,6 +155,17 @@ h1,h2,h3,h4,h5,h6{
 .hero-text{
   font-weight:300!important;
   font-size:24px;
+}
+
+#portfolio-hero{
+  /*margin-top:-160px;*/
+  height:100vh!important;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/2.jpg');
+  background-size:cover;
+  background-position:center center;
+  webkit-box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
 }
 
 #ceramic-guard-hero{
@@ -184,6 +201,20 @@ h1,h2,h3,h4,h5,h6{
   box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);  
 }
 
+#contact-left i{
+  font-size:35px;
+  color:#333;
+  /*text-shadow:2px 2px 2px #930000;*/
+}
+
+#contact-left .fab{
+  color:blue;
+}
+
+#contact-left .far{
+  color:#BF0000;
+}
+
 .brand{
   font-family: 'Montserrat', sans-serif;
   color:black;
@@ -209,9 +240,32 @@ h1,h2,h3,h4,h5,h6{
   
 }
 
+#facebook{
+  position:absolute;
+  bottom:20px;
+  right:20px;
+  color:white;
+  transition:.4s ease-in-out;
+  
+}
+
+#facebook:hover{
+  text-decoration:none;
+  transform:scale(1.05,1.05);
+  transition:.4s ease-in-out;
+}
+
+#facebook .fa-facebook{
+  font-size:45px;
+  color:#3b5998;
+}
+
 #about{
   /*height:100vh;*/
+  
 }
+
+
 
 #about img{
   /*box-shadow:0px 20px 40px rgba(0,0,0,0.5);*/
@@ -233,16 +287,20 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #reviews{
-  margin-top:200px;
-  margin-bottom:200px;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/1005162/pexels-photo-1005162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  height:300px; 
+  /*margin-top:200px;*/
+  /*margin-bottom:200px;*/
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/recensies.jpg');
+  height:400px; 
   background-size:cover;
-  background-position:center center;
+  background-position:top center;
   webkit-box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
   box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
   color:white;
+}
+
+#reviews .review{
+  margin-top:150px;
 }
 
 .review .fas{
@@ -261,9 +319,23 @@ h1,h2,h3,h4,h5,h6{
   /*box-shadow:0px 10px 20px rgba(0,0,0,0.4);*/
 }
 
+/*PORTFOLIO*/
+.card{
+  box-shadow:0px 20px 40px rgba(0,0,0,0.5);
+  margin-top:50px;
+  margin-bottom:50px;
+  transition:.4s ease-in-out;
+}
+
+.card:hover{
+  transform:scale(1.15,1.15);
+  transition:.4s ease-in-out;
+}
+
 /*FOOTER*/
 footer{
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://www.spiffyauto.com/images/main_slider.jpg');
+  background:#050608;
+  /*background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://www.spiffyauto.com/images/main_slider.jpg');*/
   background-size:cover;
   background-position:center center;
   color:white!important;
@@ -278,11 +350,12 @@ footer{
 }
 
 footer h5{
-  color:red;
+  color:#BF0000;
 }
 
 footer a{
   color:white;
+    
 }
 
 .footer-copyright{

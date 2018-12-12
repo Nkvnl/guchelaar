@@ -25,6 +25,10 @@ app.get("/voorwaarden", function(req, res) {
     res.render("voorwaarden");
 });
 
+app.get("/portfolio", function(req, res) {
+    res.render("portfolio");
+});
+
 app.get("/AVG", function(req, res) {
     res.render("avg");
 });
