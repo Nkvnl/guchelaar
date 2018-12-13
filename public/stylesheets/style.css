@@ -83,6 +83,7 @@ h1,h2,h3,h4,h5,h6{
 .navbar-brand:hover{
   transition:.4s ease-in-out;
   color:#808080;
+  margin-left:40px!important;
 }
 
 .scroll-navbar{
@@ -171,7 +172,7 @@ h1,h2,h3,h4,h5,h6{
 #ceramic-guard-hero{
   /*margin-top:-160px;*/
   height:100vh!important;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://www.cartecworld.com/uploads/CeramicGuard_auto_logo.jpg');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/ceramic.jpg');
   background-size:cover;
   background-position:center center;
   webkit-box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
@@ -182,7 +183,7 @@ h1,h2,h3,h4,h5,h6{
 #technieken-hero{
   /*margin-top:-160px;*/
   height:100vh!important;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/441179/pexels-photo-441179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/244207/pexels-photo-244207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size:cover;
   background-position:center center;
   webkit-box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
@@ -193,7 +194,7 @@ h1,h2,h3,h4,h5,h6{
 #contact-hero{
   /*margin-top:-160px;*/
   height:100vh!important;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/159293/car-engine-motor-clean-customized-159293.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/441179/pexels-photo-441179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size:cover;
   background-position:center center;
   webkit-box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
@@ -228,7 +229,51 @@ h1,h2,h3,h4,h5,h6{
   
 }
 
+#lamb-row{
+    /*display: flex; */
+}
 
+#lamborghini{
+  background-image:url('../img/Lamborghini.jpg');
+  background-position:center center;
+  background-size:cover;
+  min-height:100%!important;
+  /*padding: 1em;*/
+  /*border: solid;*/
+}
+
+
+#ceramic{
+  background-image:url('../img/ceramic.jpg');
+  background-position:center center;
+  background-size:cover;
+  min-height:100%!important;
+  /*padding: 1em;*/
+  /*border: solid;*/
+}
+
+#ferarri{
+  background-image:url('../img/4.jpg');
+  background-position:center center;
+  background-size:cover;
+  min-height:100%!important;
+  /*padding: 1em;*/
+  /*border: solid;*/
+}
+
+
+#lamborghini{
+  background-image:url('../img/Lamborghini.jpg');
+  background-position:center center;
+  background-size:cover;
+  min-height:100%!important;
+  /*padding: 1em;*/
+  /*border: solid;*/
+}
+
+#technieken-section{
+  height:auto;
+}
 #technieken-hero div{
   padding-top:60vh;
   
@@ -263,6 +308,10 @@ h1,h2,h3,h4,h5,h6{
 #about{
   /*height:100vh;*/
   
+}
+
+#banner{
+ background:#CB0000; 
 }
 
 
@@ -395,8 +444,35 @@ footer a{
 #ceramic-guard-hero{
   height:60vh!important;
 }
+#portfolio-hero{
+  height:60vh!important;
+}
+#facebook{
+  top:50vh;
+}
+#reviews .review h2{
+  font-size:32px;
+}
+#banner{
+  background:white!important;
+}
+#banner2{
+  height:180px!important;
+  margin-top:20px;
+}
+#banner3{
+  margin-top:20px;
+}
+.navbar-brand{
+  font-size:18px!important;
+  /*padding-left:0px!important;*/
+}
 
-
+}
+@media only screen and (max-device-height : 400px) and (max-device-width : 700PX) {
+  #navbarNav{
+    background:white;
+  }
 }
 
 
@@ -437,3 +513,53 @@ footer a{
   transform: translateY(0);
   border-width: 4px;
 }
+
+/*COOKIES: ;*/
+
+#cookieConsent {
+    background-color: rgba(255,255,255,0.8);
+    min-height: 50px;
+    font-size: 14px;
+    color: #333;
+    line-height: 26px;
+    padding: 14px 0 14px 30px;
+    font-family: "Titillium Web",Helvetica,sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+#cookieConsent a {
+    color: #266db2;
+    text-decoration: none;
+}
+#closeCookieConsent {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: -15px 0 0 0;
+    font-weight: bold;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: #BF0000;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+    font-family: "Teko",Helvetica,sans-serif;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #266db2;
+}
+
+
