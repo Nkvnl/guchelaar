@@ -12,7 +12,7 @@
 }
 
 p{
-  font-size:.9rem;
+  font-size:1rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -83,7 +83,6 @@ h1,h2,h3,h4,h5,h6{
 .navbar-brand:hover{
   transition:.4s ease-in-out;
   color:#808080;
-  margin-left:40px!important;
 }
 
 .scroll-navbar{
@@ -145,7 +144,7 @@ h1,h2,h3,h4,h5,h6{
 #hero{
   /*margin-top:-160px;*/
   height:100vh!important;
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/638479/pexels-photo-638479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('../img/audi.jpg');
   background-size:cover;
   background-position:center center;
   webkit-box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
@@ -183,7 +182,7 @@ h1,h2,h3,h4,h5,h6{
 #technieken-hero{
   /*margin-top:-160px;*/
   height:100vh!important;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/244207/pexels-photo-244207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/159293/car-engine-motor-clean-customized-159293.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size:cover;
   background-position:center center;
   webkit-box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
