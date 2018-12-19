@@ -54,6 +54,10 @@ app.get("/portfolio", function(req, res) {
     res.render("portfolio");
 });
 
+app.get("/waxguard", function(req, res) {
+    res.render("waxguard");
+});
+
 app.get("/AVG", function(req, res) {
     res.render("avg");
 });
