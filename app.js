@@ -8,6 +8,7 @@ var robots = require('express-robots-txt');
 var flash = require('connect-flash')
 var session = require('express-session')
 
+app.set('port', (process.env.PORT || 3020))
 require('dotenv').config()
 app.use(flash());
 app.set("view engine", "ejs");
@@ -71,11 +72,6 @@ app.get("/:id", function(req, res) {
 });
 
 
-app.listen(process.env.PORT, process.env.IP, function() { // tell node to listen & define a port to view app
-    console.log("Passier server starting...");
-});
-
-
 app.post("/contact-form", (req, res) => {
     let name = (req.body.name)
     var output = `
@@ -115,4 +111,9 @@ app.post("/contact-form", (req, res) => {
         res.redirect("/bedankt")
 
     });
+});
+
+
+app.listen(app.get('port'), function() {
+    console.log('starting');
 });
