@@ -1,9 +1,9 @@
 var express = require("express"); // call express
 var app = express();
-// var env = require('dotenv').config()
 var bodyParser = require("body-parser");
 var nodemailer = require("nodemailer");
 var sm = require('sitemap');
+var path = require('path')
 var robots = require('express-robots-txt');
 var flash = require('connect-flash')
 var session = require('express-session')
@@ -14,6 +14,7 @@ app.use(flash());
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(express.static(__dirname + "/public"));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(robots({ UserAgent: '*', Disallow: '' }))
@@ -21,12 +22,6 @@ app.use((req, res, next) => {
     res.header('Cache-Control', 'max-age=2592000000');
     next();
 });
-app.use(session({
-    cookie: { maxAge: 60000 },
-    secret: 'woot',
-    resave: false,
-    saveUninitialized: false
-}));
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
@@ -59,7 +54,7 @@ app.get("/waxguard", function(req, res) {
     res.render("waxguard");
 });
 
-app.get("/AVG", function(req, res) {
+app.get("/avg", function(req, res) {
     res.render("avg");
 });
 
