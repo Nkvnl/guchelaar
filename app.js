@@ -30,8 +30,8 @@ app.get("/", function(req, res) {
     res.render("index");
 });
 
-app.get("/ceramic-guard", function(req, res) {
-    res.render("ceramic-guard");
+app.get("/IGL-coatings", function(req, res) {
+    res.render("IGL-coatings");
 });
 
 app.get("/technieken", function(req, res) {

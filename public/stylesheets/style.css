@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6{
 
 #texts{
   font-family: 'Montserrat', sans-serif;
-  line-height:28px!important;  
+  line-height:28px!important;
 }
 
 .btn-primary{
@@ -53,7 +53,7 @@ h1,h2,h3,h4,h5,h6{
   background:red;
   border:2px solid red;
   border-radius:0px;
-  color:white; 
+  color:white;
   box-shadow:0px 20px 40px rgba(0,0,0,0.5);
   transform: translateY(-10px);
   transition:.4s ease-in-out;
@@ -72,7 +72,7 @@ h1,h2,h3,h4,h5,h6{
   background:rgba(0,0,0,0);
   border:6px solid white;
   border-radius:0px;
-  color:white; 
+  color:white;
   box-shadow:0px 20px 40px rgba(0,0,0,0.5);
   transform: translateY(-10px);
   transition:.4s ease-in-out;
@@ -100,7 +100,7 @@ h1,h2,h3,h4,h5,h6{
 
 .navbar-toggler {
   /*border-color: rgb(255,102,203);*/
-} 
+}
 
 .hide{
   display:none;
@@ -121,7 +121,7 @@ h1,h2,h3,h4,h5,h6{
   background:white;
   transition:.4s ease-in-out;
   box-shadow:0px 20px 40px rgba(0,0,0,0.4);
-  
+
 }
 
 .navbar .nav-link{
@@ -137,7 +137,7 @@ h1,h2,h3,h4,h5,h6{
 .hover a{
   border:2px solid rgba(0,0,0,0);
   transition:.2s ease-in-out;
-  
+
 }
 .hover :hover{
    border:2px solid white;
@@ -186,7 +186,7 @@ clip-path: polygon(100% 0, 100% 90%, 55% 90%, 50% 100%, 45% 90%, 0 90%, 0 0);
   background-position:center center;
   webkit-box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);
-  box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);  
+  box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);
 }
 
 #wax-guard-hero{
@@ -199,7 +199,7 @@ clip-path: polygon(100% 0, 100% 90%, 55% 90%, 50% 100%, 45% 90%, 0 90%, 0 0);
   background-position:center center;
   webkit-box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);
-  box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);  
+  box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);
 }
 
 #technieken-hero{
@@ -212,7 +212,7 @@ clip-path: polygon(100% 0, 100% 90%, 55% 90%, 50% 100%, 45% 90%, 0 90%, 0 0);
   background-position:center center;
   webkit-box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);
-  box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);    
+  box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);
 }
 
 #contact-hero{
@@ -225,7 +225,7 @@ clip-path: polygon(100% 0, 100% 90%, 55% 90%, 50% 100%, 45% 90%, 0 90%, 0 0);
   background-position:center center;
   webkit-box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);
-  box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);  
+  box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.75);
 }
 
 #contact-left i{
@@ -250,7 +250,7 @@ clip-path: polygon(100% 0, 100% 90%, 55% 90%, 50% 100%, 45% 90%, 0 90%, 0 0);
 
 #hero-div{
   padding-top:40vh;
-  
+
 }
 #hero-div h1,h3{
   font-family: 'Montserrat', sans-serif;
@@ -259,17 +259,15 @@ clip-path: polygon(100% 0, 100% 90%, 55% 90%, 50% 100%, 45% 90%, 0 90%, 0 0);
 
 #hero div{
   padding-top:40vh;
-  
+
 }
 
 #lamb-row{
     /*display: flex; */
 }
 
-
-
 #ceramic{
-  background-image:url('../img/ceramic.jpg');
+  background-image:url('../img/IGL ECOCOAT QUARTZ +.jpg');
   background-position:center center;
   background-size:cover;
   min-height:100%!important;
@@ -301,13 +299,13 @@ clip-path: polygon(100% 0, 100% 90%, 55% 90%, 50% 100%, 45% 90%, 0 90%, 0 0);
 }
 #technieken-hero div{
   /*padding-top:60vh;*/
-  
+
 }
 
 
 #hero div{
   padding-top:40vh;
-  
+
 }
 
 #facebook{
@@ -316,7 +314,7 @@ clip-path: polygon(100% 0, 100% 90%, 55% 90%, 50% 100%, 45% 90%, 0 90%, 0 0);
   right:20px;
   color:white;
   transition:.4s ease-in-out;
-  
+
 }
 
 #facebook:hover{
@@ -332,11 +330,11 @@ clip-path: polygon(100% 0, 100% 90%, 55% 90%, 50% 100%, 45% 90%, 0 90%, 0 0);
 
 #about{
   /*height:100vh;*/
-  
+
 }
 
 #banner{
- background:#CB0000; 
+ background:#CB0000;
 }
 
 
@@ -357,14 +355,14 @@ clip-path: polygon(100% 0, 100% 90%, 55% 90%, 50% 100%, 45% 90%, 0 90%, 0 0);
 #ceramic-guard-section{
   margin-top:100px;
   font-family: 'Montserrat', sans-serif;
-  
+
 }
 
 #reviews{
   /*margin-top:200px;*/
   /*margin-bottom:200px;*/
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/recensies.jpg');
-  height:400px; 
+  height:400px;
   background-size:cover;
   background-position:top center;
   webkit-box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.75);
@@ -414,7 +412,7 @@ footer{
   background-position:center center;
   color:white!important;
   font-family: 'Montserrat', sans-serif;
-  
+
 }
 
 .footer-brand{
