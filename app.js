@@ -70,7 +70,7 @@ app.get("/:id", function(req, res) {
 app.post("/contact-form", (req, res) => {
     let name = (req.body.name)
     var output = `
-    <h3> Nieuw bericht van ${req.body.name}.<h3>
+    <h3> Nieuw bericht van:  ${req.body.name}.<h3>
     <h5> Details <h5>
     <ul>
         <li>Naam : ${req.body.name}</li>
@@ -92,7 +92,7 @@ app.post("/contact-form", (req, res) => {
     // setup email data with unicode symbols
     let mailOptions = {
         from: '"www.guchelaarautodetailing.nl" <mailserver163@gmail.com>', // sender address
-        to: 'niekvanlosenoord@gmail.com', // list of receivers
+        to: 'r.guchelaar@gmail.com', // list of receivers
         subject: 'Nieuw bericht van' + name, // Subject line
         text: '', // plain text body
         html: output // html body
