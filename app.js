@@ -92,7 +92,7 @@ app.post("/contact-form", (req, res) => {
     // setup email data with unicode symbols
     let mailOptions = {
         from: '"www.guchelaarautodetailing.nl" <mailserver163@gmail.com>', // sender address
-        to: 'r.guchelaar@gmail.com', // list of receivers
+        to: 'niekvanlosenoord@gmail.com', // list of receivers
         subject: 'Nieuw bericht van' + name, // Subject line
         text: '', // plain text body
         html: output // html body
