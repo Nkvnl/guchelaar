@@ -27,7 +27,7 @@
     "express": "^4.16.4",
     "express-robots-txt": "^0.4.0",
     "express-session": "^1.15.6",
-    "nodemailer": "^4.7.0",
+    "nodemailer": "^6.4.16",
     "req-flash": "0.0.3",
     "sitemap": "^2.1.0"
   }
